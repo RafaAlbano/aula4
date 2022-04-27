@@ -12,7 +12,7 @@ export default {
     <ArtiGo />
     <ArtiGo class="conteudo" />
     <ArtiGo />
-    <ArtiGo class="conteudo" />
+    <ArtiGo class="conteudo" :nomes="['Joao']" />
   </main>
 </template>
 
