@@ -7,11 +7,11 @@ export default {
 
 <template>
   <main id="content">
+    <ArtiGo titulo="Bloco1" :nomes="['Rafaela', 'Heloisa']" />
+    <ArtiGo titulo="URGENTE" class="conteudo" :nomes="['Eduardo', 'Heric']" />
+    <ArtiGo />
     <ArtiGo class="conteudo" />
-    <ArtiGo class="conteudo" />
-    <ArtiGo class="conteudo" />
-    <ArtiGo class="conteudo" />
-    <ArtiGo class="conteudo" />
+    <ArtiGo />
     <ArtiGo class="conteudo" />
   </main>
 </template>
